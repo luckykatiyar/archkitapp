@@ -731,6 +731,11 @@ ul { list-style: none; }
         margin-top: 2rem;
     }
     
+    .availability-container {
+        justify-content: center;
+    }
+
+    
     .floating-card {
         display: none;
     }
@@ -755,6 +760,22 @@ ul { list-style: none; }
 
     .hero-cta {
         flex-direction: column;
+    }
+    
+    .availability-container {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .coming-soon-badge {
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .store-badge {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.25rem;
     }
     
     .footer-links {
